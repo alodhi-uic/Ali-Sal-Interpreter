@@ -1,0 +1,12 @@
+DEC var1
+DEC var2
+LDI 10
+STR var1
+LDI 20
+STR var2
+LDA var1
+LDI 5
+XCH
+LDA var2
+ADD
+HLT
