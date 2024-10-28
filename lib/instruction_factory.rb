@@ -9,6 +9,7 @@ require_relative 'instructions/jzs_instruction'
 require_relative 'instructions/hlt_instruction'
 require_relative 'instructions/dec_instruction'
 require_relative 'instructions/xch_instruction'
+require_relative 'instructions/print_instruction'
 class InstructionFactory
   COMMAND_MAP = {
     "DEC" => DecInstruction,
@@ -20,7 +21,8 @@ class InstructionFactory
     "JZS" => JzsInstruction,
     "ADD" => AddInstruction,
     "SUB" => SubInstruction,
-    "HLT" => HltInstruction
+    "HLT" => HltInstruction,
+    "PS" => PrintInstruction
   }
 
   def self.create_instruction(command, args, interpreter)

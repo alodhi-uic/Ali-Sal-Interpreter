@@ -1,5 +1,5 @@
 class Instruction
-  attr_reader :opcode, :args, :interpreter
+  attr_accessor :opcode, :args, :interpreter
 
   def initialize(opcode, args, interpreter)
     @opcode = opcode

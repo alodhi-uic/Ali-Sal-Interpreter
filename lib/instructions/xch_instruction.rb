@@ -5,6 +5,16 @@ class XchInstruction < Instruction
   end
 
   def execute
-    interpreter.xch
+    temp = interpreter.a
+    interpreter.a = interpreter.b
+    interpreter.b = temp
+    if interpreter.describe_instruction
+      puts describe
+    end
+  end
+
+  private
+  def describe
+    puts "Exchanges the content registers A and B."
   end
 end

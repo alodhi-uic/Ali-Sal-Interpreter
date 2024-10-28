@@ -5,38 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e803d37c-371b-41d7-9f92-19b9ce434084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALI-SAL-Interpreter.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ali_interpreter.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ali_interpreter_methods.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/input/program.sal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instruction_factory.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/add_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/dec_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/hlt_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/jmp_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/jzs_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/lda_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/ldi_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/str_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/sub_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/instructions/xch_instruction.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/trash/prog.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/trash/programa.sal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ALI/SAL/Interpreter_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/input/prg2.sal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/input/ugo.sal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/instructions/print_instruction.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/trash/method_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ali_interpreter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ali_interpreter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ali_interpreter_methods.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instruction_factory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instruction_factory.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/add_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/add_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/dec_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/dec_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/hlt_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/hlt_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/jmp_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/jmp_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/jzs_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/jzs_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/lda_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/lda_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/ldi_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/ldi_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/str_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/str_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/sub_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/sub_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/xch_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/xch_instruction.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +53,7 @@
     "Ruby.ALIInterpreter.executor": "Run",
     "Ruby.SALInterpreter.executor": "Run",
     "Ruby.add_instruction.executor": "Run",
+    "Ruby.instruction_factory.executor": "Run",
     "Ruby.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -80,10 +68,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/trash" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/instructions" />
       <recent name="$PROJECT_DIR$/lib/input" />
-      <recent name="$PROJECT_DIR$/lib/trash" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729796582313</updated>
       <workItem from="1729796583462" duration="9990000" />
-      <workItem from="1730067646708" duration="3692000" />
+      <workItem from="1730067646708" duration="14536000" />
     </task>
     <servers />
   </component>
@@ -111,8 +99,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@instruction_factory.rcov" NAME="instruction_factory Coverage Results" MODIFIED="1730073334149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
     <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@add_instruction.rcov" NAME="add_instruction Coverage Results" MODIFIED="1730070498590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
-    <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@main.rcov" NAME="main Coverage Results" MODIFIED="1730070855235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
+    <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@main.rcov" NAME="main Coverage Results" MODIFIED="1730087089815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
     <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@SALInterpreter.rcov" NAME="SALInterpreter Coverage Results" MODIFIED="1729796695225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
     <SUITE FILE_PATH="coverage/ALI_SAL_Interpreter@ALIInterpreter.rcov" NAME="ALIInterpreter Coverage Results" MODIFIED="1729809502028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ALI-SAL-Interpreter" />
   </component>

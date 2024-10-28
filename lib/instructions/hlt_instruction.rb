@@ -5,6 +5,7 @@ class HltInstruction < Instruction
   end
 
   def execute
-    interpreter.hlt
+    puts "Program halted."
+    exit(0) # Exit the program
   end
 end
