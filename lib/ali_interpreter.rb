@@ -14,7 +14,7 @@ class ALIInterpreter
     @a = 0
     @b = 0
     @zero_bit = false
-    @describe_instruction = true
+    @describe_instruction = false
     @memory = Array.new(MEMORY_SIZE, 0)
   end
 
@@ -37,7 +37,7 @@ class ALIInterpreter
 
   def command_loop
     loop do
-      puts "Enter command (s: step, a: all, q: quit): "
+      puts "Enter command (s: step-execution, a: execute-all, q: quit): "
       command = gets.chomp
 
       case command
@@ -46,7 +46,7 @@ class ALIInterpreter
       when 'a'
         execute_all
       when 'q'
-        puts "Exiting ALI interpreter."
+        puts "Exiting ALI interpreter. Kinda hate Ruby. Bye Bye!!"
         break
       else
         puts "Invalid command. Please enter 's', 'a', or 'q'."
