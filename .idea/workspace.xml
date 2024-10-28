@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e803d37c-371b-41d7-9f92-19b9ce434084" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/input/ugo2.sal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ali_interpreter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ali_interpreter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/instructions/xch_instruction.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/instructions/xch_instruction.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729796582313</updated>
       <workItem from="1729796583462" duration="9990000" />
-      <workItem from="1730067646708" duration="16542000" />
+      <workItem from="1730067646708" duration="17618000" />
     </task>
     <servers />
   </component>

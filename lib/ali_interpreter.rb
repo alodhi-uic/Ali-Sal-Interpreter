@@ -89,6 +89,10 @@ class ALIInterpreter
     @last_command = instruction
     command, *args = instruction.split
     instruction_instance = InstructionFactory.create_instruction(command, args, self)
+    # Used Factory design pattern instead of Switch case to make it follow Seperation of concerns.
+    # As explained by Prof Ugo in https://piazza.com/class/m014gwxce653wr/post/54
+    # Now to incorporate any additional command we dont have to make changes to this file at all.
+
     raise "Unknown instruction: #{command}" unless instruction_instance
     instruction_instance.execute
   end

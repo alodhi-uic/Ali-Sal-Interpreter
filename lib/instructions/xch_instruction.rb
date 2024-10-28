@@ -5,9 +5,10 @@ class XchInstruction < Instruction
   end
 
   def execute
-    temp = interpreter.a
-    interpreter.a = interpreter.b
-    interpreter.b = temp
+    # temp = interpreter.a
+    # interpreter.a = interpreter.b
+    # interpreter.b = temp
+    interpreter.a, interpreter.b = interpreter.b, interpreter.a
     if interpreter.describe_instruction
       puts describe
     end
